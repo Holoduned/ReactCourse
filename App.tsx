@@ -16,6 +16,9 @@ import {
   Text,
   View,
 } from 'react-native';
+import { ButtonText } from './components/buttonText';
+import { TextInput1, TextInput2, TextInput3 } from './components/textInput';
+import { CustomComponent1 } from './components/box';
 
 function App(): React.JSX.Element {
 
@@ -23,67 +26,13 @@ function App(): React.JSX.Element {
     <SafeAreaView>
       <ScrollView nestedScrollEnabled={true}>
         <View style={[styles.componentContainer, styles.commonMargin]}>
-          <Text style={styles.titleText}>Текст</Text>
-          <Text style={styles.regularText} onPress={() => {
-            Alert.alert('Тревога');
-          }}>
-            Нажми на меня
-          </Text>
-          <Text numberOfLines={2} style={styles.regularText}>
-            Этот текст усечен - {text}
-          </Text>
-          <Text numberOfLines={1} ellipsizeMode={'middle'} style={styles.regularText}>
-          Этот тоже, но иначе - {text}
-          </Text>
-        </View>
-
-        <View style={[styles.componentContainer, styles.midView, styles.commonMargin]}>
-        <Text style={styles.titleText}>Изображения</Text>
-          <Image
-            alt='тут была картинка'
-            style={styles.image}
-            source={{ uri: 'https://s16.stc.all.kpcdn.net/family/wp-content/uploads/2024/06/n1.jpg' }}
-          />
-          <Text style={styles.regularText}>У меня есть alt</Text>
-          <Image
-            onLoad={() => {
-              Alert.alert('пикча вжух');
-            }}
-            style={styles.image}
-            source={{ uri: 'https://otkrytki.by/images/cards/image-virtoualnaya-kartinka-dobryj-den-prekrasnogo-dnya.jpg' }}
-          />
-          <Text style={styles.regularText}>Я даю alert при загрузке</Text>
-
-          <Image
-            blurRadius={5}
-            style={styles.image}
-            source={{ uri: 'https://s10.stc.all.kpcdn.net/family/wp-content/uploads/2024/08/o1.jpg' }}
-          />
-          <Text style={styles.regularText}>Я мыльный</Text>
-
-        </View>
-        <View style={[styles.componentContainer, styles.endView, styles.commonMargin]}>
-        <Text style={styles.titleText}>Прокрут</Text>
-          <ScrollView horizontal={true} style={styles.commonMargin}>
-            <Text>
-            {text}
-            </Text>
-          </ScrollView>
-          <Text style={styles.regularText}>Я горизонтальный</Text>
-          <ScrollView nestedScrollEnabled={true}  onScroll={() => {
-            Alert.alert('вы поскролили');
-          }} style={[styles.commonMargin,styles.height]}>
-            <Text>
-            {text}
-            </Text>
-          </ScrollView>
-          <Text style={styles.regularText}>Я вызываю alert</Text>
-          <ScrollView scrollEnabled={false} style={styles.commonMargin}>
-            <Text>
-              {text}
-            </Text>
-          </ScrollView>
-          <Text style={styles.regularText}>Мне запретили скролить</Text>
+          <Text style={styles.titleText}>Button Text</Text>
+          <ButtonText/>
+          <Text style={styles.titleText}>Text Input</Text>
+          <TextInput1/>
+          <TextInput2/>
+          <TextInput3/>
+          <CustomComponent1/>
         </View>
       </ScrollView>
     </SafeAreaView>
