@@ -1,11 +1,11 @@
-import {TaskStore} from '../ViewModel/TaskStore.ts';
+import {WeatherForecastStore} from '../modules/weatherForecast/WeatherForecastStore.ts';
 import React from 'react';
 
 class RootStore {
-  taskStore;
+  weatherForecastStore;
 
   constructor() {
-    this.taskStore = new TaskStore();
+    this.weatherForecastStore = new WeatherForecastStore();
   }
 }
 
