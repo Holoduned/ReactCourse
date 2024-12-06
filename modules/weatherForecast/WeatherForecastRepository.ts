@@ -1,5 +1,6 @@
 import {WeatherForecastModel} from './WeatherForecastModel.ts';
 import AxiosClient from '../axios/AxiosClient.ts';
+import LocalRepository from '../asyncStorage/LocalRepository.ts';
 
 export default class WeatherForecastRepository {
   apiClient: AxiosClient;

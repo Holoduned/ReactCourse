@@ -11,6 +11,10 @@ const styles = StyleSheet.create({
     fontSize: 16,
     margin: 5,
   },
+  title: {
+    fontSize: 22,
+    margin: 5,
+  },
 });
 
 export default styles;
