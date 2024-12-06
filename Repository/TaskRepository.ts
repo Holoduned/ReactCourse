@@ -20,6 +20,5 @@ export default class TaskRepository {
         this.data = this.data.map(task =>
           task.id === id ? { ...task, isComplited: !task.isComplited } : task
         );
-        console.log(this.data);
     };
 }
