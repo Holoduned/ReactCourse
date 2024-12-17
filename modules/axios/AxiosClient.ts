@@ -1,6 +1,5 @@
 import axios, {AxiosRequestConfig} from 'axios';
 import {Platform} from 'react-native';
-import {API_KEY} from '@env';
 
 import GeolocationService from '../geolocation/GeolocationService.ts';
 
