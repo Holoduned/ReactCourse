@@ -1,11 +1,11 @@
-import {SafeAreaView, Text, View, Button} from 'react-native';
-import React, {useEffect, useState} from 'react';
+import {SafeAreaView, Text, View} from 'react-native';
+import styles from '../stylesheets/WeatherForecastStyle';
 
 export const WeatherForecastScreen = () => {
   return (
     <SafeAreaView>
       <View>
-        <Text>Начальная страница</Text>
+        <Text style={styles.title}>Начальная страница</Text>
       </View>
     </SafeAreaView>
   );

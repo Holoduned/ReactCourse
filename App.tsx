@@ -30,7 +30,7 @@ const App = () => {
       ref={Navigation.navigationRef}>
       <HomeworkStack.Navigator>
         <HomeworkStack.Screen
-          name="Weather Forecast"
+          name="Deep Linking"
           component={WeatherForecastScreen}
         />
         <HomeworkStack.Screen name="ExampleScreen" component={ExampleScreen} />
