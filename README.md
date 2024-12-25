@@ -1,2 +1,4 @@
-Прогноз погоды с использованием ЯндексAPI. Местоположение берется с эмулятора. 
-![Group 1(1)](https://github.com/user-attachments/assets/3a3d3429-7a1a-4451-872b-5de0aed862e7)
+
+
+https://github.com/user-attachments/assets/c7f43b49-4d4a-4717-9285-fe0ca2b84eac
+
