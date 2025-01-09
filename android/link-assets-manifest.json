@@ -1,0 +1,29 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "assets/fonts/FluentSystemIcons-Filled.json",
+      "sha1": "7be4fc9214c86491c39e2a067db61dce4154b65b"
+    },
+    {
+      "path": "assets/fonts/FluentSystemIcons-Filled.ttf",
+      "sha1": "9edbf20909a6036add5efcec749d82da871b8f02"
+    },
+    {
+      "path": "assets/fonts/FluentSystemIcons-Regular.json",
+      "sha1": "9325bdb10f4b075a3ab102ca5298ed803b573bc7"
+    },
+    {
+      "path": "assets/fonts/FluentSystemIcons-Regular.ttf",
+      "sha1": "a8bec7b765d8ef9476dd333654c18e629ff64036"
+    },
+    {
+      "path": "assets/fonts/RubikBubbles-Regular.ttf",
+      "sha1": "3ed44df9642eb519e942aa9dfb808451c4a39d5b"
+    },
+    {
+      "path": "assets/fonts/StardewValley.ttf",
+      "sha1": "6c5b5a7693b42e728e5dcb6ce2f9696a62c851ae"
+    }
+  ]
+}

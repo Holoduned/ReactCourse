@@ -12,8 +12,9 @@ const styles = StyleSheet.create({
     margin: 5,
   },
   title: {
-    fontSize: 22,
-    margin: 5,
+    fontSize: 30,
+    fontWeight: 'normal',
+    fontFamily: 'Rubik Bubbles',
   },
 });
 
