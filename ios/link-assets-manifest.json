@@ -3,7 +3,7 @@
   "data": [
     {
       "path": "assets/fonts/FluentSystemIcons-Filled.json",
-      "sha1": "7be4fc9214c86491c39e2a067db61dce4154b65b"
+      "sha1": "949c6c3a914aa938c7b320e85f4c55455542f706"
     },
     {
       "path": "assets/fonts/FluentSystemIcons-Filled.ttf",
@@ -11,11 +11,15 @@
     },
     {
       "path": "assets/fonts/FluentSystemIcons-Regular.json",
-      "sha1": "9325bdb10f4b075a3ab102ca5298ed803b573bc7"
+      "sha1": "ebca496a28676d347741d47e9769279778893f90"
     },
     {
       "path": "assets/fonts/FluentSystemIcons-Regular.ttf",
       "sha1": "a8bec7b765d8ef9476dd333654c18e629ff64036"
+    },
+    {
+      "path": "assets/fonts/Montserrat-Regular.ttf",
+      "sha1": "1c8119b38eef1914a4fbd9f6cfdedf198445ab97"
     },
     {
       "path": "assets/fonts/RubikBubbles-Regular.ttf",

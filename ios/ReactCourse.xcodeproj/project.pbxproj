@@ -17,9 +17,10 @@
 		9E39DF668D3845409F8D0EAF /* RubikBubbles-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E97EAEAAF59B408A9146CD2A /* RubikBubbles-Regular.ttf */; };
 		DA29012FB4354159AD4076E6 /* StardewValley.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F823FA8E83CD4342B2D0C754 /* StardewValley.ttf */; };
 		12EA93CE8CCE4BC4BCAF761A /* FluentSystemIcons-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3204B0B574834DEEAC0A6411 /* FluentSystemIcons-Regular.ttf */; };
-		DA58EA37F121432BBF4B4F37 /* FluentSystemIcons-Regular.json in Resources */ = {isa = PBXBuildFile; fileRef = 1D4918B5DEAF4AA49C64068E /* FluentSystemIcons-Regular.json */; };
 		1773BF49670742F09A5FE710 /* FluentSystemIcons-Filled.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AE3CE2778A4240759528D4C0 /* FluentSystemIcons-Filled.ttf */; };
-		E1328E8A7A2645379BEC5E2A /* FluentSystemIcons-Filled.json in Resources */ = {isa = PBXBuildFile; fileRef = D130ECB7407045EEB0053A1E /* FluentSystemIcons-Filled.json */; };
+		6C85DA18D8804D10A597D4FD /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5D9E58E87B5E4C5FAF0ABDC4 /* Montserrat-Regular.ttf */; };
+		DA4C591416854785BB967C8A /* FluentSystemIcons-Filled.json in Resources */ = {isa = PBXBuildFile; fileRef = F8B6175DC6AE44E480364939 /* FluentSystemIcons-Filled.json */; };
+		DA5E1D9FD76A45DCBEB7749D /* FluentSystemIcons-Regular.json in Resources */ = {isa = PBXBuildFile; fileRef = 4104D1304348492A864D16E3 /* FluentSystemIcons-Regular.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,9 +55,10 @@
 		E97EAEAAF59B408A9146CD2A /* RubikBubbles-Regular.ttf */ = {isa = PBXFileReference; name = "RubikBubbles-Regular.ttf"; path = "../assets/fonts/RubikBubbles-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		F823FA8E83CD4342B2D0C754 /* StardewValley.ttf */ = {isa = PBXFileReference; name = "StardewValley.ttf"; path = "../assets/fonts/StardewValley.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		3204B0B574834DEEAC0A6411 /* FluentSystemIcons-Regular.ttf */ = {isa = PBXFileReference; name = "FluentSystemIcons-Regular.ttf"; path = "../assets/fonts/FluentSystemIcons-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		1D4918B5DEAF4AA49C64068E /* FluentSystemIcons-Regular.json */ = {isa = PBXFileReference; name = "FluentSystemIcons-Regular.json"; path = "../assets/fonts/FluentSystemIcons-Regular.json"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		AE3CE2778A4240759528D4C0 /* FluentSystemIcons-Filled.ttf */ = {isa = PBXFileReference; name = "FluentSystemIcons-Filled.ttf"; path = "../assets/fonts/FluentSystemIcons-Filled.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		D130ECB7407045EEB0053A1E /* FluentSystemIcons-Filled.json */ = {isa = PBXFileReference; name = "FluentSystemIcons-Filled.json"; path = "../assets/fonts/FluentSystemIcons-Filled.json"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		5D9E58E87B5E4C5FAF0ABDC4 /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; name = "Montserrat-Regular.ttf"; path = "../assets/fonts/Montserrat-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F8B6175DC6AE44E480364939 /* FluentSystemIcons-Filled.json */ = {isa = PBXFileReference; name = "FluentSystemIcons-Filled.json"; path = "../assets/fonts/FluentSystemIcons-Filled.json"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		4104D1304348492A864D16E3 /* FluentSystemIcons-Regular.json */ = {isa = PBXFileReference; name = "FluentSystemIcons-Regular.json"; path = "../assets/fonts/FluentSystemIcons-Regular.json"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -169,9 +171,10 @@
 				E97EAEAAF59B408A9146CD2A /* RubikBubbles-Regular.ttf */,
 				F823FA8E83CD4342B2D0C754 /* StardewValley.ttf */,
 				3204B0B574834DEEAC0A6411 /* FluentSystemIcons-Regular.ttf */,
-				1D4918B5DEAF4AA49C64068E /* FluentSystemIcons-Regular.json */,
 				AE3CE2778A4240759528D4C0 /* FluentSystemIcons-Filled.ttf */,
-				D130ECB7407045EEB0053A1E /* FluentSystemIcons-Filled.json */,
+				5D9E58E87B5E4C5FAF0ABDC4 /* Montserrat-Regular.ttf */,
+				F8B6175DC6AE44E480364939 /* FluentSystemIcons-Filled.json */,
+				4104D1304348492A864D16E3 /* FluentSystemIcons-Regular.json */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -275,9 +278,10 @@
 				9E39DF668D3845409F8D0EAF /* RubikBubbles-Regular.ttf in Resources */,
 				DA29012FB4354159AD4076E6 /* StardewValley.ttf in Resources */,
 				12EA93CE8CCE4BC4BCAF761A /* FluentSystemIcons-Regular.ttf in Resources */,
-				DA58EA37F121432BBF4B4F37 /* FluentSystemIcons-Regular.json in Resources */,
 				1773BF49670742F09A5FE710 /* FluentSystemIcons-Filled.ttf in Resources */,
-				E1328E8A7A2645379BEC5E2A /* FluentSystemIcons-Filled.json in Resources */,
+				6C85DA18D8804D10A597D4FD /* Montserrat-Regular.ttf in Resources */,
+				DA4C591416854785BB967C8A /* FluentSystemIcons-Filled.json in Resources */,
+				DA5E1D9FD76A45DCBEB7749D /* FluentSystemIcons-Regular.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
