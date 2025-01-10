@@ -1,20 +1,22 @@
 import { StyleSheet } from 'react-native';
 
 const styles = StyleSheet.create({
-  forecastContainer: {
-    justifyContent: 'center',
+  container: {
+    backgroundColor: '#f8f8f8',
     alignItems: 'center',
-    direction: 'column',
-    backgroundColor: '#B2BEBF',
+    marginTop: 30,
+    marginHorizontal: 10,
+    padding: 10,
+    borderWidth: 2,
+    borderColor: 'black',
+    borderRadius: 10,
   },
-  regText: {
-    fontSize: 16,
+  button: {
+    backgroundColor: 'gray',
+    paddingVertical: 10,
+    paddingHorizontal: 20,
+    borderRadius: 5,
     margin: 5,
-  },
-  title: {
-    fontSize: 30,
-    fontWeight: 'normal',
-    fontFamily: 'Rubik Bubbles',
   },
 });
 
