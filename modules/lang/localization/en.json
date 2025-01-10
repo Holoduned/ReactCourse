@@ -1,0 +1,8 @@
+{
+  "main": {
+    "header": "Main",
+    "text": "Text",
+    "help": "Help",
+    "interpolation": "Test date {{date}}"
+  }
+}

@@ -6,22 +6,29 @@
  */
 
 import React from 'react';
+import {useTranslation} from 'react-i18next';
+import {LangType} from './modules/lang/LangType.ts';
+import {Button, SafeAreaView, Text} from 'react-native';
+import LangStore from './modules/lang/LangStore.ts';
 
-import {MainScreen} from './screens/MainScreen.tsx';
-import {createNativeStackNavigator} from '@react-navigation/native-stack';
-import {NavigationContainer} from '@react-navigation/native';
+const langStore = new LangStore();
 
-const HomeworkStack = createNativeStackNavigator();
+const handleChangeLang = async () => {
+  await langStore.changeLang(
+    LangType.RU === langStore.lang ? LangType.EN : LangType.RU,
+  );
+};
 const App = () => {
+  const {t} = useTranslation();
+
   return (
-    <NavigationContainer>
-      <HomeworkStack.Navigator>
-        <HomeworkStack.Screen
-          name="Fonts"
-          component={MainScreen}
-        />
-      </HomeworkStack.Navigator>
-    </NavigationContainer>
+    <SafeAreaView>
+      <Text>{t('main.header')}</Text>
+      <Text>{t('main.text')}</Text>
+      <Text>{t('main.help')}</Text>
+      <Text>{t('main.interpolation', {date: new Date()})}</Text>
+      <Button title="Изменить язык" onPress={() => handleChangeLang()} />
+    </SafeAreaView>
   );
 };
 
